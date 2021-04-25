@@ -1,0 +1,126 @@
+body{
+    color: #371a45;
+    margin: 0;
+    display: block;
+}
+
+/* Boxes*/
+#boxes .container{
+    padding: 50px 0 50px 0;
+}
+
+#boxes .container .row h1{
+    font-size: 4.25em;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+#boxes .container .row .col img{
+    width: 300px;
+    height: 300px;
+}
+#boxes .container .row .col h3{
+    font-weight: 700;
+    font-size: 1.75em;
+}
+#boxes .container .row .col p{
+    font-size: 1em;
+    padding: 0px 25px 0px 25px;
+}
+
+#boxes .container .row .col img:hover{   
+    transform: scale(1.1);
+    transition:all 1s;
+}
+
+/* Title 1*/
+
+#title-1{
+    padding: 60px 0px 60px 0;
+    background-color: #371a45;
+}
+
+#title-1 h1{
+    font-size: 4.25em;
+    font-weight: 700;
+    color: white;
+}
+
+/* Banner */
+
+#banner .container{
+    padding: 50px 0px 30px 0px;
+}
+
+#banner .container .row .col h2{
+    font-weight: 700;
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+
+#banner .container .row .col img{
+    width: 400px;
+}
+
+#banner .container .row #content{
+    padding: 110px 0 0 0;
+}
+
+.more{
+    display: inline-block;
+    background-color: #371a45;
+    color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.more:hover{
+    color:white;
+    text-decoration: none;
+}
+
+/* Mobile */
+
+@media(max-width: 468px){
+    #boxes .container{
+        padding: 20px 0 20px 0;
+    }
+    #boxes .container .row h1{
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    #boxes .container .row .col img{
+        width: 250px;
+        height: 250px;
+    }
+    #boxes .container .row .col h3{
+        font-size: 1.5em;
+    }
+    #boxes .container .row .col p{
+        font-size: 0.75em;
+    }
+    #title-1{
+        padding: 20px 0px 20px 0px;
+    }
+    #title-1 h1{
+        font-size: 2em;
+    }
+    #banner .container .row .col img{
+        width: 225px;
+    }
+    #banner .container .row .col h2{
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
+    #banner .container .row .col p{
+        font-size: 0.75em;
+        padding: 0px 25px 0px 25px;
+    } 
+    .more{
+        font-size: 0.8em;
+    }
+    #banner .container .row #content{
+        padding: 30px 0 0 0;
+    }
+}
